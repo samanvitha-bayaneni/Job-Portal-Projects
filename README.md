@@ -2,4 +2,9 @@
 
 <img src = "https://www.aalpha.net/wp-content/uploads/2021/05/job_search_portals.png" height = 500 width=1000>
 
-A Python script that automates the process of collecting job descriptions from LinkedIn, Glassdoor, and Indeed job search results, and then uses a website (https://usellm.org/) to generate suggestions for relevant projects based on the job descriptions. The code utilizes the Selenium library to interact with web pages and collect job descriptions.
+- Import the necessary libraries, including os, pandas, requests, BeautifulSoup, time, and Selenium.
+- Set up the web driver for Firefox and define URLs for LinkedIn, Glassdoor, and Indeed job search results.
+- Create three functions for each job search website:get_linkedin_projects, get_glassdoor_projects, and get_indeed_projects.
+- In each function, automate the process of collecting job descriptions from the respective website.
+- Process the collected job descriptions, format them, and then send them to the website https://usellm.org/ for project suggestions.
+- Retrieve project suggestions from the website and print them.
